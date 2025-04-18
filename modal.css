@@ -1,0 +1,66 @@
+.modal-color-1{
+    color: #666666;
+}
+.modal{
+    border: 1px solid #ECFCFC;
+    box-shadow: 4px 4px 8px 0px #00000040;
+    width: 564px;
+}
+/* 
+.form-control::placeholder {
+  color: #b0b0b0;
+}
+.btn-outline-secondary {
+  color: #6c757d;
+  border-color: #ced4da;
+}
+.btn-outline-secondary:hover,
+.btn-outline-secondary:focus {
+  color: #343a40;
+  border-color: #adb5bd;
+  box-shadow: none;
+}
+.btn-bold {
+  font-weight: 700;
+  color: #6c757d;
+  border: 1px solid #ced4da;
+  border-radius: 0.375rem;
+  padding: 0.375rem 0.75rem;
+  background: transparent;
+}
+.btn-bold:hover,
+.btn-bold:focus {
+  color: #343a40;
+  border-color: #adb5bd;
+  box-shadow: none;
+  background: transparent;
+}
+.btn-italic {
+  font-style: italic;
+  color: #6c757d;
+  border: 1px solid #ced4da;
+  border-radius: 0.375rem;
+  padding: 0.375rem 0.75rem;
+  background: transparent;
+}
+.btn-italic:hover,
+.btn-italic:focus {
+  color: #343a40;
+  border-color: #adb5bd;
+  box-shadow: none;
+  background: transparent;
+} */
+
+
+.modal-input::placeholder {
+    color: #BFBFBF;
+  }
+.textarea{
+    /* width: 516px; */
+    height: 80px;
+resize: none !important;
+}
+.modal-submit{
+    background: #497AA5;
+    color: #FFFFFF;
+}
