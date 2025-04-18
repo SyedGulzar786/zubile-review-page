@@ -19,7 +19,13 @@
     font-weight: 400;
     font-style: normal;
 }
-  
+ 
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
 .poppins-medium {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
@@ -31,39 +37,6 @@
     font-weight: 600;
     font-style: normal;
   }
-
-.first-p{
-font-family: Poppins;
-font-weight: 400;
-font-size: 18px;
-line-height: 29.34px;
-letter-spacing: 0%;
-}
-
-.sec-p {
-font-family: Poppins;
-font-weight: 400;
-font-size: 16px;
-line-height: 19.2px;
-letter-spacing: 0%;
-color: black;
-}
-
-.third-p{
-font-family: Poppins;
-font-weight: 600;
-font-size: 16px;
-line-height: 19.2px;
-letter-spacing: 0%;
-}
-
-.first-h{
-    font-family: Poppins;
-font-weight: 700;
-font-size: 40px;
-line-height: 48px;
-letter-spacing: 0%;
-}
 
 .color-white{
 color: #FFFFFF;
@@ -274,4 +247,27 @@ border-width: 1px;
 border-radius: 4px;
     border: 1px solid #ECFCFC;
     box-shadow: 4px 4px 8px 0px #00000040;    
+}
+
+/* rating filter */
+.filter-rating{
+    border-radius: 4px;
+    padding: 7px 12px ;
+    border: 0.5px solid #BFBFBF
+}
+
+.filter-rating-img{
+    width: 24;
+    height: 24;
+}
+/* write a review */
+.write-input{
+    width: 230px !important;
+}
+/* load-more */
+.load-more{
+    background: #F5F5F5;
+    border-radius: 4px;
+    padding: 15px 15px;  
+    border: none;  
 }
