@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Purple+Purse&display=swap');
+*{
+    font-family: "Poppins", serif;
+}
+
+
+.first-p{
+font-family: Poppins;
+font-weight: 400;
+font-size: 18px;
+line-height: 29.34px;
+letter-spacing: 0%;
+}
+
+.sec-p {
+font-family: Poppins;
+font-weight: 400;
+font-size: 16px;
+line-height: 19.2px;
+letter-spacing: 0%;
+color: black;
+}
+
+.third-p{
+font-family: Poppins;
+font-weight: 600;
+font-size: 16px;
+line-height: 19.2px;
+letter-spacing: 0%;
+}
+
+.first-h{
+    font-family: Poppins;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+letter-spacing: 0%;
+}
+
+.color-white{
+color: #FFFFFF;
+}
+
+.headline{
+margin-top: 75px;
+background: #497AA5;
+height: 91px;
+}
+
+.star{
+font-size: 22px;
+}
+
+.color-grey{
+color: #575757;
+}
+
+.avatar{
+width: 116px;
+height: 116px;    
+}
+
+.review-card{
+/* width: 630px !important;  */
+/* max-width: fit-content; */
+margin-top: 30px;
+padding: 25px 15px 20px 25px;
+/* height: 240px;  */
+
+border: solid 1px #E5E5E5;
+border-radius: 8px;
+}
+
+.nike-logo{
+width: 197px;
+height: 120px;
+top: -14px;
+left: 10px;
+}
+
+.nike-vector{
+top: -14px;
+}
+
+.prostitute{
+width: 197px;
+height: 91px;
+}
+
+.divider-one {
+height: 18px;
+width: 1px;
+background-color: #DEDEDE;
+}
+
+.divider-two {
+    height: 15px;
+    width: 2px;
+    /* background-color: lightgray; */
+    background-color: #FFFFFF;
+    /* margin: 0 20px; */
+}
+
+.stars-code {
+    color: #FFD700;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 10px; */
+}
+
+.rating-text {
+    margin-left: 10px;
+    /* color: #666; */
+}
+
+.divider {
+    height: 1px;
+    width: 65%;
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+/* ////////////////////////// */
+
+.feedback{    
+/* border-color: #ECFCFC; */
+margin-top: 60px;
+background: #FAFAFA;
+padding: 40px;
+
+}
+
+.feedback-card{
+    width: 823px;
+height: 258px;
+border-radius: 4px;
+padding: 15px 20px;
+border-width: 1px;
+/* background: #FAFAFA; */
+background: #FAFAFA;
+border: 1px solid #ECFCFC;
+box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.review-textarea {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    color: #666;
+    resize: none;
+    margin-bottom: 20px;
+}
+
+.submit-button {
+    background: #497AA5;
+    color: #fff;
+    border: none;
+    /* padding: 10px 20px; */
+    border-radius: 4px;
+    cursor: pointer;
+    width: 140;
+padding: 15px 10px;
+
+}
+
+.submit-button:hover {
+    background-color: #357ab8;
+}
+
+.load-more{
+    background: #F5F5F5;
+    border-radius: 4px;
+    padding: 15px 15px;  
+    border: none;  
+}
+
+/* /////////////////////////////////// */
+
+.all-rating{
+    border-radius: 4px;
+    padding: 7px 12px ;
+    border: 0.5px solid #BFBFBF
+}
+
+.all-rating-img{
+    width: 24;
+    height: 24;
+}
+
+/* /////////////////////////////////// */
+
+@media (max-width: 768px) {
+    /* Center Align Content */
+    .feedback-content {
+      text-align: center;
+    }
+  
+    /* Adjust Stars for Better Spacing */
+    .stars-code {
+      font-size: 1.2rem; /* Make stars slightly larger */
+    }
+  
+    /* Improve Spacing for Review Box */
+    .review-textarea {
+      width: 100%;
+      font-size: 1rem;
+      min-height: 120px; /* Ensures comfortable typing space */
+    }
+  
+    /* Stack Elements Vertically */
+    .feed-back-review {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .feed-back-review p {
+      margin-top: 10px;
+    }
+  
+    /* Increase Card Padding to Keep Button Inside */
+    .feedback-card {
+      width: 95%;
+      padding: 20px;
+      padding-bottom: 60px; /* Extra space for the button */
+      position: relative; /* Ensures button stays inside */
+    }
+  
+    /* Ensure Button Stays in the Card */
+    .submit-button {
+      width: 80%; /* Full width on mobile */
+      font-size: 1rem;
+      padding: 12px;
+      position: absolute;
+      bottom: 15px; /* Stick button to bottom but inside */
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  
+
+/* /////////////////////////////////// */
+
+@media (max-width: 576px) {
+    .headline {
+        margin-top: 30px;
+        height: auto;
+        padding: 20px 10px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+
+    .container.d-flex {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        position: relative;
+    }
+
+    .nike-vector {
+        display: none; /* Hides vector on mobile */
+    }
+
+    .nike-logo {
+        width: 80px; /* Makes Nike logo smaller */
+        height: auto;
+        position: absolute;
+        top: -30px; /* Moves logo to the top of the label */
+        left: 50%;
+        transform: translateX(-50%); /* Centers logo horizontally */
+    }
+
+    .headline-content {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        padding-top: 40px; /* Adds space for the Nike logo */
+    }
+
+    .first-h {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .first-p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .prostitute {
+        display: none;
+    }
+}
+
+/*Header*/
+
+.nav-item a {
+    color: #4A4A4A;
+}
+
+li.nav-item:hover {
+    text-decoration: underline;
+}
+
+.bg-color{
+  background: #ECFCFC;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+span.fa.fa-search.form-control-feedback{
+    color:#2E2E2E;
+}
+
+.has-search input::placeholder {
+    color: #BFBFBF;
+}
+
+.has-search input{
+    border-color: #DEDEDE !important;
+}
+
+button#Dropdown {
+    border: none;
+    background: transparent;
+}
+
+button.btn.btn-link.d-flex.align-items-center.p-0.custom-design {
+    color: #4A4A4A;
+    text-decoration: none;
+}
+
+.divider-border {
+    border: 1px solid #DEDEDE;
+    margin-left: 12px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+li.nav-item {
+    margin-left: 4px !important;
+}
+}
+/*Header-end*/
